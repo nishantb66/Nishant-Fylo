@@ -4,7 +4,6 @@ body {
     /* background-color: rgb(246, 246, 246); */
 }
 
-
 .main-header {
     /* background-color: aquamarine; */
     margin: 0;
@@ -217,14 +216,94 @@ span {
     top: 0;
 }
 
-.copyright{
+.copyright {
     color: rgba(77, 150, 125, 0.466);
     text-align: end;
 }
-.nishant{
+
+.nishant {
     font-size: 15px;
     color: rgb(175, 171, 171);
 }
-.nishant:hover{
+
+.nishant:hover {
     color: rgb(244, 233, 233);
+}
+
+.row {
+    box-sizing: border-box;
+}
+
+
+@media screen and (max-width: 500px) {
+    body {
+        width: 100%;
+    }
+
+    .R1 {
+        width: 200%;
+        position: absolute;
+        left: 105%;
+        top: 150%
+    }
+
+    .img3 {
+        width: 1200px;
+        position: absolute;
+        left: 2%;
+    }
+
+    .img5 {
+        position: absolute;
+        right: 25%;
+        top: -60px;
+    }
+
+    .testimonial {
+        position: absolute;
+        left: 85%;
+        top: 60%;
+    }
+
+    .img2 {
+        position: absolute;
+        top: 5px;
+    }
+
+    .design {
+        width: 336%;
+    }
+
+    .cont2 {
+        position: absolute;
+        bottom: -60px;
+    }
+
+    .subcription{
+        width: 333%;
+        position: absolute;
+        top: 285%;
+    background-color: rgb(239, 239, 255);
+    }
+
+    .main-footer {
+        width: 333%;
+        position: absolute;
+        top: 330%;
+        padding: 0;
+    background-color: rgb(61, 61, 62);
+    }
+    .img6{
+        position: relative;
+        right: 400px;
+    }
+    .R2{
+        position: absolute;
+        left: 750px;
+        bottom: 10px;
+    }
+    .navbar{
+        width: 50%;
+        background-color: #fff;
+    }
 }
